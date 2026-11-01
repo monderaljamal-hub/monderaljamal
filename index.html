@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>مندر الجمل | Monder Aljamal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@500;700&family=IBM+Plex+Sans+Arabic:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#EFE6D4; --ink:#2A2118; --muted:#6B5B49; --accent:#A8531E; --line:#CDBBA0; --panel:#E6DAC2;
+  color-scheme:light;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#1A1815; --ink:#EDE3D0; --muted:#A39580; --accent:#D9944A; --line:#3A342B; --panel:#232019;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#1A1815; --ink:#EDE3D0; --muted:#A39580; --accent:#D9944A; --line:#3A342B; --panel:#232019;
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:inherit}
+html{height:100%;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;min-height:100%;background:var(--bg);color:var(--ink);
+  font-family:"IBM Plex Sans Arabic",system-ui,sans-serif;line-height:1.8;font-size:16px}
+.card{max-width:460px;margin:0 auto;padding:28px 24px 40px}
+.art{width:100%;height:auto;display:block;color:var(--accent);margin-bottom:8px}
+h1{font-family:"Reem Kufi",serif;font-weight:700;font-size:2.7rem;line-height:1.2;margin:8px 0 0}
+.en{direction:ltr;text-align:right;font-family:"IBM Plex Sans Arabic",system-ui,sans-serif}
+.name-en{font-size:1.15rem;color:var(--muted);margin:2px 0 20px;letter-spacing:.02em}
+.role{font-family:"Reem Kufi",serif;font-size:1.2rem;color:var(--accent);margin:0}
+.role-en{font-size:.95rem;color:var(--muted);margin:0 0 22px}
+.bio{margin:0 0 28px;padding-top:18px;border-top:1px solid var(--line)}
+.bio p{margin:0 0 6px}
+.bio .en{color:var(--muted);font-size:.92rem;line-height:1.6}
+h2{font-family:"Reem Kufi",serif;font-weight:500;font-size:1.1rem;margin:0 0 4px;color:var(--muted)}
+ul{list-style:none;margin:0 0 28px;padding:0}
+li a{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:13px 2px;
+  border-bottom:1px solid var(--line);color:var(--ink);text-decoration:none}
+li a:hover,li a:focus-visible{color:var(--accent)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+.site{direction:ltr;font-size:.88rem;color:var(--muted);text-align:left}
+.foot{font-size:.82rem;color:var(--muted);text-align:center;margin-top:34px}
+.theme{display:block;margin:20px auto 0;background:none;border:1px solid var(--line);color:var(--muted);
+  font:inherit;font-size:.82rem;padding:4px 14px;border-radius:999px;cursor:pointer}
+.theme:hover{color:var(--ink)}
+@media (prefers-reduced-motion:no-preference){
+  .art path,.art circle,.art line{stroke-dasharray:400;stroke-dashoffset:400;animation:draw 2.2s ease forwards}
+  @keyframes draw{to{stroke-dashoffset:0}}
+}
+</style>
+</head>
+<body>
+<main class="card">
+  <svg class="art" viewBox="0 0 400 110" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <circle cx="60" cy="40" r="15"/>
+    <line x1="60" y1="14" x2="60" y2="8"/><line x1="60" y1="66" x2="60" y2="72"/>
+    <line x1="34" y1="40" x2="28" y2="40"/><line x1="86" y1="40" x2="92" y2="40"/>
+    <path d="M150 88 c8-6 14-26 16-40 c2-10 8-14 12-14 l6-10 l2 10 c10 2 14 8 14 16 c0 10-4 14-8 18 l-4 20 M176 62 l30 4 l4 22 M186 88 l-2-18"/>
+    <path d="M250 88 l8-32 m0 0 l-10-10 m10 10 l12-8 m-12 8 l6 32 m-4-24 l24-14 l8-4 m-12 2 l0 0"/>
+    <path d="M310 88 c10-4 14-18 20-26 c5-6 10-6 14 0 c6 8 8 22 22 26"/>
+    <path d="M20 96 c40 6 80-4 120 2 s90 6 140 0 s70-4 100 0"/>
+  </svg>
+
+  <h1>مندر الجمل</h1>
+  <p class="name-en en">Monder Aljamal</p>
+
+  <p class="role">مصوّر ومنتج محتوى إعلامي وموثّق للتراث الليبي</p>
+  <p class="role-en en">Photographer, media producer and heritage documentarian</p>
+
+  <section class="bio">
+    <p>أوثّق المواقع الأثرية والفنون الصخرية والتراث الثقافي في ليبيا، وأقدّمها للجمهور المحلي والدولي بأدوات الإنتاج الحديثة. صانع الفيلم الوثائقي «رسائل الرمال».</p>
+    <p class="en">I document Libya’s archaeological sites, rock art and cultural heritage for local and international audiences. Creator of the documentary “Messages of the Sand”.</p>
+  </section>
+
+  <h2>التواصل</h2>
+  <ul>
+    <li><a href="monder-aljamal.vcf" download><span>حفظ جهة الاتصال</span><span class="site">vCard</span></a></li>
+    <li><a href="tel:+218913028831"><span>اتصال</span><span class="site">+218 91 302 8831</span></a></li>
+    <li><a href="https://wa.me/218913028831" target="_blank" rel="noopener"><span>واتساب</span><span class="site">+218 91 302 8831</span></a></li>
+    <li><a href="mailto:m.jamal@prclibya.com"><span>البريد المهني</span><span class="site">m.jamal@prclibya.com</span></a></li>
+    <li><a href="mailto:metalmon@gmail.com"><span>البريد الشخصي</span><span class="site">metalmon@gmail.com</span></a></li>
+  </ul>
+
+  <h2>الروابط</h2>
+  <ul>
+    <li><a href="https://linktr.ee/Monder_Aljamal_83" target="_blank" rel="noopener"><span>جميع الروابط</span><span class="site">linktr.ee</span></a></li>
+    <li><a href="https://roma4.odoo.com" target="_blank" rel="noopener"><span>معرض الأعمال</span><span class="site">roma4.odoo.com</span></a></li>
+    <li><a href="https://metalmon.blogspot.com" target="_blank" rel="noopener"><span>المدونة</span><span class="site">metalmon.blogspot.com</span></a></li>
+    <li><a href="https://www.youtube.com/@metalmonder" target="_blank" rel="noopener"><span>يوتيوب</span><span class="site">@metalmonder</span></a></li>
+    <li><a href="https://www.instagram.com/metalmon83" target="_blank" rel="noopener"><span>إنستغرام</span><span class="site">@metalmon83</span></a></li>
+    <li><a href="https://www.facebook.com/MonderAljamal0603" target="_blank" rel="noopener"><span>فيسبوك</span><span class="site">MonderAljamal0603</span></a></li>
+    <li><a href="https://www.linkedin.com/in/monder-aljamal-302b56381" target="_blank" rel="noopener"><span>لينكدإن</span><span class="site">monder-aljamal</span></a></li>
+  </ul>
+
+  <p class="foot">طرابلس، ليبيا · Tripoli, Libya</p>
+  <button class="theme" type="button" id="t">الوضع الفاتح / الداكن</button>
+</main>
+<script>
+document.getElementById('t').addEventListener('click',function(){
+  var r=document.documentElement;
+  var dark=r.getAttribute('data-theme')?r.getAttribute('data-theme')==='dark':matchMedia('(prefers-color-scheme: dark)').matches;
+  r.setAttribute('data-theme',dark?'light':'dark');
+});
+</script>
+</body>
+</html>
